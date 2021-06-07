@@ -18,6 +18,7 @@ struct ContentView: View {
             Color.gray.ignoresSafeArea()
             VStack {
                 ChangedColorView(r: redSlider, g: greenSlider, b: blueSlider)
+                    .padding(.bottom, 30)
                 ColorSlider(sliderValue: $redSlider, color: .red)
                 ColorSlider(sliderValue: $greenSlider, color: .green)
                 ColorSlider(sliderValue: $blueSlider, color: .blue)

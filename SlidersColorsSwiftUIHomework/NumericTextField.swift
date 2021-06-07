@@ -18,7 +18,6 @@ struct NumericTextField: View {
         return VStack {
             TextField("", text: someValue, onCommit: validation)
             .textFieldStyle(RoundedBorderTextFieldStyle())
-            .padding()
             .alert(isPresented: $showAlert, content: {
                 Alert(title: Text("Error"), message: Text("Please input only numbers in range 0-255"))
             })

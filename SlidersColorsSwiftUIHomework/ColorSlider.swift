@@ -20,7 +20,8 @@ struct ColorSlider: View {
                 .frame(height: 30)
                 .accentColor(color)
             NumericTextField(value: $sliderValue)
-                .frame(width: 80)
+                .frame(width: 50)
+                .multilineTextAlignment(.center)
         }
         .padding(.horizontal, 16)
     }
