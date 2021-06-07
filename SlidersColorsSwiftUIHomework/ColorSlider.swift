@@ -25,23 +25,3 @@ struct ColorSlider: View {
         .padding(.horizontal, 16)
     }
 }
-
-struct NumericTextField: View {
-    @Binding var value: Double
-    
-    private let formatter: NumberFormatter = {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .decimal
-        formatter.maximumFractionDigits = 0
-        return formatter
-    }()
-    
-    var body: some View {
-        VStack {
-            TextField("", value: $value, formatter: formatter)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding()
-        }
-    }
-    
-}

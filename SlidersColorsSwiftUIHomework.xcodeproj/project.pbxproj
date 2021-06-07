@@ -13,6 +13,7 @@
 		E9D38B25266D2E0C00504ACC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D38B24266D2E0C00504ACC /* Preview Assets.xcassets */; };
 		E9D38B2D266D7B2600504ACC /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D38B2C266D7B2600504ACC /* ColorSlider.swift */; };
 		E9D38B2F266D7B5800504ACC /* ChangedColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D38B2E266D7B5800504ACC /* ChangedColorView.swift */; };
+		E9D38B31266E4DB800504ACC /* NumericTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D38B30266E4DB800504ACC /* NumericTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E9D38B26266D2E0C00504ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D38B2C266D7B2600504ACC /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 		E9D38B2E266D7B5800504ACC /* ChangedColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangedColorView.swift; sourceTree = "<group>"; };
+		E9D38B30266E4DB800504ACC /* NumericTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E9D38B1D266D2E0900504ACC /* SlidersColorsSwiftUIHomeworkApp.swift */,
 				E9D38B1F266D2E0900504ACC /* ContentView.swift */,
 				E9D38B2C266D7B2600504ACC /* ColorSlider.swift */,
+				E9D38B30266E4DB800504ACC /* NumericTextField.swift */,
 				E9D38B2E266D7B5800504ACC /* ChangedColorView.swift */,
 				E9D38B21266D2E0C00504ACC /* Assets.xcassets */,
 				E9D38B26266D2E0C00504ACC /* Info.plist */,
@@ -148,6 +151,7 @@
 				E9D38B2F266D7B5800504ACC /* ChangedColorView.swift in Sources */,
 				E9D38B2D266D7B2600504ACC /* ColorSlider.swift in Sources */,
 				E9D38B1E266D2E0900504ACC /* SlidersColorsSwiftUIHomeworkApp.swift in Sources */,
+				E9D38B31266E4DB800504ACC /* NumericTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
